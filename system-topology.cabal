@@ -16,8 +16,8 @@ Library
                      System.Topology.Types
   Hs-source-dirs:    src
   Build-depends:     base == 4.*,
-                     filepath == 1.3.*,
-                     process == 1.1.*,
-                     temporary == 1.1.*,
+                     filepath == 1.*,
+                     process == 1.*,
+                     temporary == 1.*,
                      xml == 1.3.*
   
