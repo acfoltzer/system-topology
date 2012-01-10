@@ -1,0 +1,16 @@
+Name:                system-topology
+Version:             0.1.0
+Synopsis:            Tools for determining the CPU/cache topology of a system
+License:             BSD3
+License-file:        LICENSE
+Author:              Adam C. Foltzer
+Maintainer:          acfoltzer@gmail.com
+Category:            System
+Build-type:          Simple
+Cabal-version:       >=1.8
+
+Library
+  Exposed-modules:   System.Topology		
+  Hs-source-dirs:    src
+  Build-depends:     base == 4.*
+  
