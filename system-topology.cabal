@@ -10,7 +10,14 @@ Build-type:          Simple
 Cabal-version:       >=1.8
 
 Library
-  Exposed-modules:   System.Topology		
+  Exposed-modules:   System.Topology,
+                     System.Topology.HwlocXML,
+                     System.Topology.Lstopo,
+                     System.Topology.Types
   Hs-source-dirs:    src
-  Build-depends:     base == 4.*
+  Build-depends:     base == 4.*,
+                     filepath == 1.3.*,
+                     process == 1.1.*,
+                     temporary == 1.1.*,
+                     xml == 1.3.*
   
